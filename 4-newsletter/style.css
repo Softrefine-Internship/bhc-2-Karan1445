@@ -1,1 +1,87 @@
 /* write your css here */
+/* #101826 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+/* container */
+body{
+    max-width: 1200px;
+}
+.container{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Newsletter{
+    overflow: hidden;
+    height: 35dvh;
+    width: 60dvw;
+    background-color:#101826;
+    border-radius: 20px;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+      background: radial-gradient(
+      circle at bottom,
+      rgba(128, 0, 128, 0.4),   
+      transparent 80%
+    ),
+    #09131e;  
+  border-radius: 10px;
+  padding: 60px;
+  text-align: center;
+}
+.Newsletter-wrapper{
+    width: 80%;
+}
+.Newsletter-wrapper h1{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.Newsletter-wrapper p{
+    color: #ffffff87;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+.user-interaction-enter{
+    margin: 0 auto;
+}
+.Newsletter-wrapper input{
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.093);
+}
+.user-interaction-enter{
+     display: flex;
+    gap: 10px;                 
+    justify-content: center;
+    align-items: center;
+    
+}
+.Newsletter-wrapper input {
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.09);
+  font-size: 14px;
+}
+
+.Newsletter-wrapper button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #ffffff;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+}
