@@ -1,1 +1,117 @@
 /* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+/* container */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    width: 88dvw;
+    margin: auto auto;
+}
+/* content */
+.content{
+    width: 40%;
+    margin: 70px auto;
+    text-align: center;
+}
+/* inside contetns */
+.content-heading{
+    color:#535de4;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.content-heading-catcher{
+    color: #101826;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.content-paragraph{
+    letter-spacing: -0.2px;
+    color:#10182698 ;
+}
+/* Card */
+.Price-section{
+    justify-content: start;
+    display: flex;
+}   
+.price-card{
+    width: 20%;
+    margin: 0 auto;
+}   
+
+.price-card-headinng{
+    font-size: 12px;
+    color:#1c232f;
+    margin-bottom: 12px;
+}
+
+.price-card-price{
+    color:#1c232f;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.price-card-price span{
+    color:#1c232f93;
+    font-size: 12px;
+}
+.price-card-bottom-text{
+    color:#191f2b99;
+    font-size: 12px;
+    margin-bottom: 22px;
+}
+.price-card-button{
+    border: none;
+    background-color: #4848e0;
+    width: 100%;
+    padding: 5px 10px;
+    color: #f7f2f7;
+    border-radius: 3px;
+    margin-bottom: 22px;
+}
+.price-card-list-tittle{
+    font-size: 14px;
+    color: #1f1c39;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.price-card-unorderd-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    list-style: none;
+  
+  }
+.price-card-unorderd-list li{
+    text-wrap: wrap;
+    color:#1f1c39cf;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+   
+}
+
+.price-card-unorderd-list li{
+  display: flex;
+
+}
+svg{
+    height: 16px;
+    width: 16px;
+    fill: #4848e0;
+    margin-right: 8px;
+}
+
+button{
+    cursor: pointer;
+}
+.price-card:nth-child(2){
+    border-left:2px solid #1f1c3913;
+    border-right:2px solid #1f1c3913;
+    box-sizing: content-box;
+    padding: 0 100px;
+}
+/*  */
