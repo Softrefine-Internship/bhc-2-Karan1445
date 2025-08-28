@@ -1,1 +1,144 @@
 /* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Inter;
+}
+/* #7e7ee9 */
+/* NavBar font #2a313f */
+/* Main font #101826 */
+/* Secoudary font:#dfe1e3 */
+/* titl sec-#777f8a */
+/* Contaienr */
+.container{
+    height: 100dvh;
+    width: 95dvw;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.Landing-Page-Header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.Landing-Page-Header svg{
+    width: 36px;
+    height: 36px;
+}
+.Landing-Page-NavBar{
+    display: flex;
+    margin: 0 auto;
+}
+.Landing-Page-NavBar a{
+    font-weight:400;
+    text-transform: capitalize;
+    color: #2a313f;
+    text-decoration: none;
+    margin:0 28px;
+}
+.Landing-Page-NavBar a:first-child{
+    margin-left: auto;
+}
+.Landing-Page-NavBar a:last-child{
+    margin-right: auto;
+}
+.Landing-Page-Lgin-button{
+    color: #1d2532;
+    font-weight: 600;
+}
+/*  */
+.Content-wrapper-Secoudary-link-tittle{
+    border: 1px solid #8b919a;;
+    color: #8b919a;;
+}
+
+.Content-wrapper{
+
+    width: 46%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.Content-wrapper-Secoudary-link-tittle{
+    display: inline-block;
+    margin-bottom:34px ;
+    border-radius: 36px;
+    padding: 10px 15px;
+}
+.Content-wrapper-Secoudary-link-tittle a{
+    color: #4848e0;
+    font-weight: 700;
+    
+}
+.Content-wrapper-Main-tittle{
+    font-size: 56px;
+    line-height: 51px;
+    margin-bottom: 34px;
+}
+.Content-wrapper-Secoudary-tittle{
+    color:#8b919a;
+    margin-bottom: 34px;
+}
+
+.Content-wrapper-button-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+.Content-wrapper-button-container button:first-child{
+    border: none;
+    background-color: #4848e0;
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Content-wrapper-button-container button:last-child{
+    border: none;
+    color: #1d2532;
+    display: inline-block;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* backgroudn styling */
+.purple-container{
+    background-color: #eed5f0;
+    width: 300px;
+    height: 300px;
+    z-index: -2;
+    position: absolute;
+    top:0%;
+    filter: blur(100px);
+}
+.purple-light-container{
+    background-color: #cdbaffcd;
+    width: 300px;
+    height: 300px;
+    z-index: -2;
+    position: absolute;
+    top:0%;
+    left: 40%;
+    transform: translate(-50%);
+    filter: blur(100px);
+}
+.purple-container2{
+    background-color: #eed5f0;
+    width: 300px;
+    height: 300px;
+    z-index: -2;
+    position: absolute;
+    top:70%;
+    right: 0%;
+    filter: blur(80px);
+}
+button{
+    cursor: pointer;
+}
