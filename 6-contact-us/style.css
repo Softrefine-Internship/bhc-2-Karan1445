@@ -1,1 +1,186 @@
 /* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+.form-container{
+    height: 100dvh;
+    width: 80dvw;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.Main-tittle{
+    margin-top: 28px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.form-container p{
+    color: #0000006b;
+    margin-bottom: 48px;
+}
+.form-group{
+    display: flex;
+}
+.firstNameBox,.messageBox,.LastNameBox,.companyName,.emailFeild,.phoneNumber{
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.firstNameBox{
+    margin-right: 20px;
+}
+label{
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+input,textarea,.PhoneFeildWrapper{
+    border: 1px solid #00000027;
+    padding: 7px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px #ffffff46;
+}
+.btn{
+    background-color: #4848e0;
+    border: none;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.radioButton{
+     margin-bottom: 12px;
+}
+.radioButton span{
+    font-size: 12px;
+}
+.radioButton a{
+    text-decoration: none;
+    color:4848e0;
+}
+/*  */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0px;
+  font-size: 12px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4848e0;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+
+
+.purple-container{
+    background-color: #eed5f0;
+    width: 300px;
+    height: 300px;
+    z-index: -2;
+    position: absolute;
+    top:0%;
+    left:0%;
+    filter: blur(100px);
+}
+.purple-light-container{
+    background-color: #cdbaffcd;
+    width: 200px;
+    height: 200px;
+    z-index: -2;
+    position: absolute;
+    top:0%;
+    left: 40%;
+    transform: translate(-50%);
+    filter: blur(100px);
+}
+.phoneNumber{
+    display: flex;
+}
+.phoneNumber select{
+   color: #000000a9;
+   width: 11%;
+}
+
+.phoneNumber input{
+    width: 80%;
+}
+.phone-input{
+     all: unset;
+     display: revert;
+}
+select{
+       color: #000000a9;
+    border: none;
+    outline: none;
+}
+
+.radioButton{
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;   
+}
+.switch{
+    display: flex;
+    margin-top: 10px;
+}
+/*  border: 1px solid #00000027;
+    padding: 7px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px; */

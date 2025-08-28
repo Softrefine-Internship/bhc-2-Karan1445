@@ -1,10 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Sales</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="form-container">
+    <h2 class="Main-tittle">Contact sales</h2>
+    <p>Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
+
+    <form>
+      <div class="purple-container"></div>
+      <div class="purple-light-container"></div>
+      <div class="form-group">
+        <div class="firstNameBox">
+          <label>First name</label>
+          <input type="text" name="first_name" />
+        </div>
+        <div class="LastNameBox">
+          <label>Last name</label>
+          <input type="text" name="last_name" />
+        </div>
+      </div>
+      
+      <div class="companyName">
+        <label>Company</label>
+        <input type="text" name="company" />
+      </div>
+      
+      <div class="emailFeild">
+        <label>Email</label>
+        <input type="email" name="email" />
+      </div>
+      
+      <div class="phoneNumber">
+        <label>Phone number</label>
+        <div class="PhoneFeildWrapper">
+        <select>
+          <option  selected value="US"><span>US</span></option>
+        </select>
+      <input type="text" name="phone" class="phone-input"/>
+      </div>
+      </div>
+      
+      <div class="messageBox">
+        <label>Message</label>
+        <textarea rows="5" name="message"></textarea>
+      </div>
+      
+      <div class="radioButton">
+       
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <span>By selecting this, you agree to our <a href="#">privacy policy</a>.</span>
+      </div>
+      
+      <button type="submit" class="btn">Let's talk</button>
+    </form>
+  </div>
+</body>
 </html>
