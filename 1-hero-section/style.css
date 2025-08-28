@@ -14,8 +14,11 @@
     height: 100dvh;
     width: 95dvw;
     margin: 0 auto;
-}
 
+}
+body{
+    overflow: hidden;
+}
 
 /* Header */
 .Landing-Page-Header{
@@ -137,6 +140,7 @@
     position: absolute;
     top:70%;
     right: 0%;
+   
     filter: blur(80px);
 }
 button{
