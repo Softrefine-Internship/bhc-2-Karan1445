@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Inter,sans-serif;
+    font-family:Mona Sans;
 }
 .form-container{
     height: 100dvh;
@@ -154,7 +154,7 @@ input:checked + .slider:before {
 }
 .phoneNumber select{
    color: #000000a9;
-   width: 11%;
+   width: auto;
 }
 
 .phoneNumber input{
@@ -184,3 +184,5 @@ select{
     padding: 7px 10px;
     border-radius: 6px;
     box-shadow: 0px 0px 1px 0px; */
+    /*  */
+    
