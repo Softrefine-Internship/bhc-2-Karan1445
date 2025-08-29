@@ -3,4 +3,146 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Inter,sans-serif;
+ 
+}
+#Layer_1{
+    height: 36px;
+    width: 36px;
+}
+.Container{
+    width: 30%;
+    margin: auto;
+}
+.Main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 56px;
+}
+.Main-header svg{
+    margin-bottom: 18px;
+}
+.Main-header h1{
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    font-size: 28px;
+}
+.form{
+   padding: 18px;
+   border-radius:6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+
+}
+input,.form-other-buttons button{
+    width: 100%;
+    border: 1px solid #00000027;
+    padding: 7px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px #ffffff46;
+    margin-bottom: 22px;
+}
+.btn{
+    background-color: #4848e0;
+    border: none;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+.form-other-buttons{
+    display: flex;
+    column-gap: 10px;
+}
+.form-other-buttons button {
+    background-color: #4848e0;
+    border: none;
+    width: 49%;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.form-other-buttons svg {
+  width: 20px; 
+  height: 20px; 
+}
+.form-other-buttons svg:first-child{
+    fill: #fff;
+    margin-right: 10px;
+}  
+
+.form-other-buttons button:first-child{
+    background-color: #009bec;   
+}
+.form-other-buttons button:last-child{
+    background-color: #24292f;   
+}
+.Bottom-information{
+    font-size: 14px;
+    color: #24292f;
+    letter-spacing: -0.4px;
+}
+
+.FrogetText{
+    text-decoration: none;
+    color: #4848e0;
+    font-weight: 500;
+}
+.form-group-checkbox{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-group{
+    display: flex;
+}
+.form-group h5{
+    margin-bottom: 9px;
+    color:#0000009a;
+   font-size: 14px; 
+}
+.checkbox-group p{
+  white-space: nowrap;
+  margin-left: 9px;
+}
+.Remembertext{
+    color: #0000009a;
+}
+.button-divsion-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 30px;
+
+}
+.button-divsion-section p{
+    color: #000000be;
+    font-size: 14px;
+}
+hr{
+    width: 25%;
+    opacity: 0.3;
+}
+.Bottom-information{
+     color: #000000be;
+    margin-top: 56px;
+   text-align: center;
+}
+button{
+    cursor: pointer;
+}
+.free-trial-link{
+font-size: 14px;
+    color: #4848e0;
+    font-weight: 600;
+    text-decoration: none;
 }

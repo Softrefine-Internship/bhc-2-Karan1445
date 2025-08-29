@@ -1,117 +1,131 @@
-/* write your css here */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
 }
-/* container */
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
-    height: 100dvh;
-    width: 88dvw;
-    margin: auto auto;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
 }
+
 /* content */
-.content{
-    width: 40%;
-    margin: 70px auto;
+.content {
+    width: 100%;
+    margin: 0 auto 60px;
     text-align: center;
 }
-/* inside contetns */
-.content-heading{
-    color:#535de4;
+
+.content-heading {
+    color: #535de4;
     font-size: 16px;
     margin-bottom: 8px;
+    font-weight: 600;
 }
-.content-heading-catcher{
+
+.content-heading-catcher {
     color: #101826;
     font-size: 36px;
     margin-bottom: 16px;
+    font-weight: 700;
 }
-.content-paragraph{
+
+.content-paragraph {
     letter-spacing: -0.2px;
-    color:#10182698 ;
-}
-/* Card */
-.Price-section{
-    justify-content: start;
-    display: flex;
-}   
-.price-card{
-    width: 20%;
+    color: #10182698;
+    max-width: 600px;
     margin: 0 auto;
-}   
+    font-size: 15px;
+}
 
-.price-card-headinng{
-    font-size: 12px;
-    color:#1c232f;
+/* Cards */
+.Price-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 340px;
+    padding: 20px;
+}
+
+.price-card-headinng {
+    font-size: 14px;
+    color: #1c232f;
     margin-bottom: 12px;
+    font-weight: 600;
 }
 
-.price-card-price{
-    color:#1c232f;
-    font-size: 28px;
-    margin-bottom: 8px;
+.price-card-price {
+    color: #1c232f;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 6px;
 }
-.price-card-price span{
-    color:#1c232f93;
-    font-size: 12px;
+
+.price-card-price span {
+    color: #1c232f93;
+    font-size: 14px;
+    font-weight: 400;
 }
-.price-card-bottom-text{
-    color:#191f2b99;
-    font-size: 12px;
+
+.price-card-bottom-text {
+    color: #191f2b99;
+    font-size: 13px;
     margin-bottom: 22px;
 }
-.price-card-button{
+
+.price-card-button {
     border: none;
     background-color: #4848e0;
     width: 100%;
-    padding: 5px 10px;
-    color: #f7f2f7;
-    border-radius: 3px;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 6px;
     margin-bottom: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
-.price-card-list-tittle{
+
+.price-card-list-tittle {
     font-size: 14px;
     color: #1f1c39;
     font-weight: 700;
     margin-bottom: 18px;
 }
-.price-card-unorderd-list{
+
+.price-card-unorderd-list {
     display: flex;
     flex-direction: column;
-    row-gap: 8px;
+    row-gap: 10px;
     list-style: none;
-  
-  }
-.price-card-unorderd-list li{
-    text-wrap: wrap;
-    color:#1f1c39cf;
-    font-size: 12px;
-    letter-spacing: 0.4px;
-   
 }
 
-.price-card-unorderd-list li{
-  display: flex;
-
+.price-card-unorderd-list li {
+    display: flex;
+    align-items: center;
+    color: #1f1c39cf;
+    font-size: 13px;
+    line-height: 1.5;
 }
-svg{
+
+.price-card-unorderd-list svg {
     height: 16px;
     width: 16px;
     fill: #4848e0;
     margin-right: 8px;
 }
 
-button{
-    cursor: pointer;
+.price-card:nth-child(2) {
+    border-left: 2px solid #1f1c3913;
+    border-right: 2px solid #1f1c3913;
 }
-.price-card:nth-child(2){
-    border-left:2px solid #1f1c3913;
-    border-right:2px solid #1f1c3913;
-    box-sizing: content-box;
-    padding: 0 100px;
-}
-/*  */

@@ -112,7 +112,7 @@ input,textarea,.PhoneFeildWrapper{
   height: 16px;
   width: 16px;
   left: 3px;
-  bottom: 3px;
+  bottom: 2.5px;
   background-color: white;
   border-radius: 50%;
   transition: .4s;
