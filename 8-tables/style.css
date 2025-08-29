@@ -1,1 +1,80 @@
 /* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+}
+.container{
+    width: 75%;
+    margin: 36px auto;
+}
+.Table-Tittle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.Table-Tittle h2{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.Table-Tittle p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #00000079;
+}
+.Table-Tittle button{
+    background-color: #4848e0;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+tr th{
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+tr td{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+tr td:last-child{
+    border:none;
+}
+
+tr td{
+    color:#00000079 ;
+}
+tr td:first-child{
+    color: #000;
+}
+tr td:last-child{
+    text-align: right;
+}
+.btn{
+    border: none;
+    color: #4848e0;
+    background: transparent;
+    font-weight: 600;
+}
+
+tr{
+    border-bottom: 2px solid #0000004f ;
+}
+tr:last-child{
+    border-bottom: none;
+}
+tr th:last-child{
+    text-align: right;
+}
+.table-header{
+    border-bottom: 1px solid #0000008a !important;
+}
