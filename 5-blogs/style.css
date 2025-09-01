@@ -64,7 +64,7 @@ margin-bottom: 68px;
     color: #0000009b;
     font-size: 14px;
     letter-spacing: 0.7px;
-    padding-bottom: 24px;
+   
     
 }
 
@@ -104,5 +104,11 @@ hr {
   width: 100%;         
   margin: 1rem auto;  
   border: none;     
+  border-top: 1px solid #cccccc7d; 
+  display: none;
+}
+/*  */
+.Blog-Author-section{
+    padding-top: 24.5px;
   border-top: 1px solid #cccccc7d; 
 }

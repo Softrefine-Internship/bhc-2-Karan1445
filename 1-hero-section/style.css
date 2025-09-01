@@ -172,3 +172,33 @@ svg{
     width: 36px;
     height: 36px;
 }
+/*  updates*/
+.Landing-Page-Lgin-button,
+.Content-wrapper-Secoudary-link-tittle a,
+.Content-wrapper-button-container button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; 
+  vertical-align: middle;
+}
+
+
+svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0; 
+}
+
+
+.Content-wrapper-button-container-arrow-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 0; 
+}
+.Content-wrapper-button-container button:first-child:hover {
+   background-color: #3737c7;
+}
+.Content-wrapper-button-container button:last-child:hover {
+   text-decoration: underline;
+}
